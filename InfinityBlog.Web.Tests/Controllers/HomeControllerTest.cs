@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using InfinityBlog.Web;
 using InfinityBlog.Web.Controllers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace InfinityBlog.Web.Tests.Controllers
 {
