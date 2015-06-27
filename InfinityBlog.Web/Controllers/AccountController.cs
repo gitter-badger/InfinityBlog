@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Globalization;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using InfinityBlog.Models;
+using InfinityBlog.Web.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using InfinityBlog.Web.Models;
 
 namespace InfinityBlog.Web.Controllers
 {
