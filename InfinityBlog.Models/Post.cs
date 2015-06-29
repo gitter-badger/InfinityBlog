@@ -20,6 +20,8 @@ namespace InfinityBlog.Models
 
         public DateTime Date { get; set; }
 
+        public Category Category { get; set; }
+
         public string Content { get; set; }
 
         public ICollection<Tag> Tags { get; set; }
