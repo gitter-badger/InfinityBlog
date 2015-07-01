@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace InfinityBlog.Models
 {
-    class Category
+    public class Category
     {
         public int Id { get; set; }
 
