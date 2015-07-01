@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
+using InfinityBlog.Web.Models;
 
 namespace InfinityBlog.Web.Controllers
 {
@@ -9,7 +10,8 @@ namespace InfinityBlog.Web.Controllers
         // GET: Projects
         public ActionResult Index()
         {
-            return View();
+            var model = new BaseViewModel("Home");
+            return View(model);
         }
     }
 }
