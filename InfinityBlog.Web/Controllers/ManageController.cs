@@ -11,7 +11,7 @@ using InfinityBlog.Web.Models;
 namespace InfinityBlog.Web.Controllers
 {
     [Authorize]
-    public class ManageController : Controller
+    public class ManageController : BaseController
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;

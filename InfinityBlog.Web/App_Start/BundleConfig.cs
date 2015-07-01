@@ -23,6 +23,7 @@ namespace InfinityBlog.Web
                       "~/Scripts/respond.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/normalize.min.css",
                       "~/Content/bootstrap.min.css",
                       "~/Content/styles.min.css"));
         }
