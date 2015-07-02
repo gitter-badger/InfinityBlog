@@ -13,6 +13,6 @@ namespace InfinityBlog.Models
 
         public DateTime Date { get; set; }
 
-        public Person Sender { get; set; }
+        public virtual Person Sender { get; set; }
     }
 }

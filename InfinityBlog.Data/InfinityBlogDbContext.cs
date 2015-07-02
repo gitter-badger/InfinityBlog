@@ -22,8 +22,6 @@ namespace InfinityBlog.Data
 
         public IDbSet<Post> Posts { get; set; }
 
-        public IDbSet<Author> Authors { get; set; }
-
         public IDbSet<Comment> Comments { get; set; }
 
         public IDbSet<Tag> Tags { get; set; }
