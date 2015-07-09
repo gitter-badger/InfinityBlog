@@ -21,6 +21,8 @@ namespace InfinityBlog.Models
         public bool IsPinned { get; set; }
 
         public bool IsHidden { get; set; }
+        
+        public bool isDeleted { get; set; }
 
         public DateTime Date { get; set; }
 
