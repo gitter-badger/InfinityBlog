@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace InfinityBlog.Models
+﻿namespace InfinityBlog.Models
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Post
     {
         public Post()
@@ -22,7 +22,7 @@ namespace InfinityBlog.Models
 
         public bool IsHidden { get; set; }
         
-        public bool isDeleted { get; set; }
+        public bool IsDeleted { get; set; }
 
         public DateTime Date { get; set; }
 

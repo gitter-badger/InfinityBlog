@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace InfinityBlog.Models
+﻿namespace InfinityBlog.Models
 {
+    using System;
+    using System.Linq;
+
     public class Tag
     {
         public int Id { get; set; }
