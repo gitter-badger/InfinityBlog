@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace InfinityBlog.Web.Models
+﻿namespace InfinityBlog.Web.Models
 {
+    using System;
+    using System.Linq;
+
     public class BaseViewModel
     {
         public BaseViewModel(string pageTite)

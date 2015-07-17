@@ -1,14 +1,17 @@
-﻿using Microsoft.Owin;
-using Owin;
+﻿[assembly: Microsoft.Owin.OwinStartupAttribute(typeof(InfinityBlog.Web.Startup))]
 
-[assembly: OwinStartupAttribute(typeof(InfinityBlog.Web.Startup))]
 namespace InfinityBlog.Web
 {
+    using Microsoft.Owin;
+    using Owin;
+
+    [assembly: OwinStartupAttribute(typeof(InfinityBlog.Web.Startup))]
+
     public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            this.ConfigureAuth(app);
         }
     }
 }
