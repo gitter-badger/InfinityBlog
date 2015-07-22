@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" class="other">
 <!--<![endif]-->
 <head>
-@Styles.Render("~/Content/css")
-@Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
     <title>@Model.PageTitle</title>
 
     <meta charset="utf-8" />
@@ -35,11 +35,47 @@
 
 </head>
 <body>
-    <div class="container body-content">
-        @RenderBody()
+    <div class="header-wrapper">
+        <div class="video">
+            <video preload="auto" loop="" autoplay="">
+                <source src="~/Videos/mountains.webm" type="video/webm" />
+                <source src="~/Videos/mountains.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="header-overlay">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="~/Images/Main/Logo-White.png" class="img-responsive" /></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Porftolio</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Contact me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-content container">
+                <h1>Hey there!</h1>
+                
+            </div>
+        </div>
     </div>
-@Scripts.Render("~/bundles/jquery")
-@Scripts.Render("~/bundles/bootstrap")
-@RenderSection("scripts", required: false)
+
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 </html>

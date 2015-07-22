@@ -22,8 +22,8 @@
 
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
-            this.UserManager = this.userManager;
-            this.SignInManager = this.signInManager;
+            this.UserManager = userManager;
+            this.SignInManager = signInManager;
         }
 
         public ApplicationSignInManager SignInManager

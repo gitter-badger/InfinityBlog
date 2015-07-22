@@ -230,9 +230,11 @@
     <Content Include="Content\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
-    <Content Include="Content\normalize.css" />
-    <Content Include="Content\normalize.min.css">
-      <DependentUpon>normalize.css</DependentUpon>
+    <Content Include="Content\reset.css">
+      <DependentUpon>reset.less</DependentUpon>
+    </Content>
+    <Content Include="Content\reset.min.css">
+      <DependentUpon>reset.css</DependentUpon>
     </Content>
     <Content Include="Content\styles.css">
       <DependentUpon>styles.less</DependentUpon>
@@ -253,9 +255,14 @@
     <Content Include="Content\styles.css.map">
       <DependentUpon>styles.css</DependentUpon>
     </Content>
+    <Content Include="Content\reset.less" />
+    <Content Include="Content\reset.css.map">
+      <DependentUpon>reset.css</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\Plesk.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Icon.png" />
+    <Content Include="Images\Main\Logo-White.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Chart.js" />
@@ -288,6 +295,7 @@
       <DependentUpon>respond.js</DependentUpon>
     </Content>
     <Content Include="Scripts\_references.js" />
+    <Content Include="Videos\mountains.mp4" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -334,9 +342,12 @@
     <Content Include="Scripts\respond.min.js.map">
       <DependentUpon>respond.min.js</DependentUpon>
     </Content>
+    <Content Include="Videos\mountains.webm" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\Misc\" />
+    <Folder Include="Images\Upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

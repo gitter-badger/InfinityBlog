@@ -1,8 +1,117 @@
-﻿.reset() {
+﻿@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+.reset() {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
+
+@header-font-color: #eee;
+@content-font-color: #222;
+@theme-color: #2980b9;
 
 body {
     font-size: 12px;
+    font-family: 'Droid Sans', sans-serif;
+    background-color: @header-font-color;
+}
+
+img {
+    pointer-events: none;
+}
+
+.header-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+    video {
+        pointer-events: none;
+    }
+
+    .header-overlay {
+        width: 100%;
+        position: absolute;
+        top: 0;
+
+        .navbar {
+            background: none;
+            background-color: rgba(0, 0, 0, 0.15);
+            border: none;
+
+            &:after {
+                z-index: -1;
+                -webkit-box-shadow: 0px 0px 8px 3px #000000;
+                -moz-box-shadow: 0px 0px 8px 3px #000000;
+                box-shadow: 0px 0px 8px 3px #000000;
+            }
+
+            .navbar-collapse {
+                text-align: center;
+                border: none;
+
+                ul {
+                    border: none;
+                }
+            }
+
+            .navbar-toggle {
+                border: none;
+            }
+
+            .navbar-header {
+                .reset();
+                padding-top: 15px;
+                padding-bottom: 20px;
+
+                .navbar-brand {
+                    .reset();
+                    padding: 4px 0;
+
+                    img {
+                        height: 50px;
+                    }
+                }
+            }
+
+            .navbar-nav {
+                .reset();
+                margin: 20px 0 15px 0;
+                position: relative;
+
+                li {
+                    padding: 0 7px;
+                    border-bottom: 2px solid;
+                    border-color: transparent;
+                    -webkit-transition: border-color 1s ease;
+                    -moz-transition: border-color 1s ease;
+                    -o-transition: border-color 1s ease;
+                    transition: border-color 1s ease;
+
+                    &:hover {
+                        border-color: @theme-color;
+                    }
+
+                    a {
+                        font-size: 18px;
+                        color: @header-font-color;
+                    }
+                }
+            }
+        }
+
+        .header-content {
+            margin-top: 120px;
+            color: @header-font-color;
+            width: 100%;
+            height: 10px;
+            text-align: center;
+
+            h1 {
+                font-size: 95px;
+                font-weight: 700;
+            }
+        }
+    }
 }
