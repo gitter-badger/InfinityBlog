@@ -110,10 +110,11 @@ img {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 .header-content ul li {
   display: inline-block;
+  margin: 25px 10px;
 }
 .header-content ul li a {
   text-decoration: none;
@@ -121,7 +122,6 @@ img {
   color: #eeeeee;
   border: 2px solid #3b97d3;
   padding: 17px;
-  margin: 13px 10px;
   background-color: none;
   -webkit-transition: background-color 1s ease;
   -moz-transition: background-color 1s ease;
@@ -151,7 +151,7 @@ img {
 }
 @media screen and (max-width: 460px) {
   .video-wrapper {
-    height: 950px !important;
+    height: 935px !important;
   }
   .interests {
     margin-top: 25px;
