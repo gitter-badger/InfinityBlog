@@ -30,7 +30,7 @@ img {
 
     .video-wrapper {
         width: 100%;
-        height: 600px;
+        height: 530px;
         overflow: hidden;
 
         video {
@@ -131,6 +131,19 @@ img {
                     font-weight: 700;
                 }
             }
+
+            ul {
+                .reset();
+                list-style-type: none;
+                margin-top: 35px;
+                li {
+                    font-size: 22px;
+                    border: 2px solid @theme-color;
+                    padding: 17px;
+                    margin: 13px 10px;
+                    display: inline-block;
+                }
+            }
         }
     }
 }
@@ -148,5 +161,27 @@ img {
                 height: 41px !important;
             }
         }
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .video-wrapper {
+        height: 560px !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .video-wrapper {
+        height: 610px !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .video-wrapper {
+        height: 950px !important;
+    }
+
+    .interests {
+        margin-top: 25px;
     }
 }
