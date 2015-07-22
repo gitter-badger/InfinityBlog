@@ -81,7 +81,7 @@ img {
                 position: relative;
 
                 li {
-                    padding: 0 7px;
+                    padding: 0 3px;
                     border-bottom: 2px solid;
                     border-color: transparent;
                     -webkit-transition: border-color 1s ease;
@@ -111,6 +111,17 @@ img {
             h1 {
                 font-size: 95px;
                 font-weight: 700;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .navbar {
+        padding-top: 10px;
+        .navbar-brand {
+            img {
+                height: 41px !important;
             }
         }
     }
