@@ -230,6 +230,12 @@
     <Content Include="Content\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
+    <Content Include="Content\plugins.css">
+      <DependentUpon>plugins.less</DependentUpon>
+    </Content>
+    <Content Include="Content\plugins.min.css">
+      <DependentUpon>plugins.css</DependentUpon>
+    </Content>
     <Content Include="Content\reset.css">
       <DependentUpon>reset.less</DependentUpon>
     </Content>
@@ -258,6 +264,10 @@
     <Content Include="Content\reset.less" />
     <Content Include="Content\reset.css.map">
       <DependentUpon>reset.css</DependentUpon>
+    </Content>
+    <Content Include="Content\plugins.less" />
+    <Content Include="Content\plugins.css.map">
+      <DependentUpon>plugins.css</DependentUpon>
     </Content>
     <None Include="Properties\PublishProfiles\Plesk.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
@@ -288,6 +298,10 @@
       <DependentUpon>modernizr-2.8.3.js</DependentUpon>
     </Content>
     <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\Plugins\simple-text-rotator.js" />
+    <Content Include="Scripts\Plugins\simple-text-rotator.min.js">
+      <DependentUpon>simple-text-rotator.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
@@ -343,6 +357,9 @@
       <DependentUpon>respond.min.js</DependentUpon>
     </Content>
     <Content Include="Videos\mountains.webm" />
+    <Content Include="Scripts\Plugins\simple-text-rotator.min.js.map">
+      <DependentUpon>simple-text-rotator.min.js</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

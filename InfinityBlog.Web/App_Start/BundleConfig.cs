@@ -8,8 +8,8 @@
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-2.1.4.min.js"));
-
+                        "~/Scripts/jquery-2.1.4.min.js",
+                        "~/Scripts/Plugins/simple-text-rotator.min.js"));
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate.min.js"));
 
@@ -25,6 +25,7 @@
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/reset.min.css",
                       "~/Content/bootstrap.min.css",
+                      "~/Content/plugins.min.css",
                       "~/Content/styles.min.css"));
         }
     }
