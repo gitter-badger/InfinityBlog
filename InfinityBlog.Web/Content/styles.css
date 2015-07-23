@@ -138,11 +138,12 @@ img {
 }
 .content-col img {
   width: 48%;
-  margin: 15px auto;
+  margin: 10px auto 25px auto;
 }
 .content-col p {
   font-size: 16px;
   padding: 13px;
+  padding-bottom: 0;
 }
 .github-stats {
   background-color: #3b97d3;
