@@ -55,7 +55,7 @@ img {
 
 .navbar-collapse {
     text-align: center;
-    border: none;
+    border-top: 0;
     background: none;
 
     ul {
@@ -107,7 +107,7 @@ img {
     }
 }
 
-.header-content {
+#header-content {
     margin-top: 45px;
     color: @header-font-color;
     width: 100%;
@@ -168,19 +168,41 @@ img {
 }
 
 .content-col {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 25px 0;
     text-align: center;
 
     img {
-        max-height: 155px;
-        max-width: 155px;
+        width: 48%;
         margin: 15px auto;
     }
 
     p {
         font-size: 16px;
         padding: 13px;
+    }
+}
+
+.github-stats {
+    background-color: @theme-color;
+    text-align: center;
+    vertical-align: central;
+
+    .github-status-container {
+        padding: 15px;
+        color: @header-font-color;
+
+        img {
+            height: 60%;
+            width: 60%;
+        }
+
+        p {
+            .reset();
+            margin-top: 9px;
+            display: inline-block;
+            font-weight: 700;
+            font-size: 20px;
+        }
     }
 }
 

@@ -273,6 +273,7 @@
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Icon.png" />
     <Content Include="Images\Main\Logo-White.png" />
+    <Content Include="Images\Misc\github.png" />
     <Content Include="Images\Misc\goals.png" />
     <Content Include="Images\Misc\plans.png" />
     <Content Include="Images\Misc\studies.png" />
