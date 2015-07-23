@@ -35,7 +35,7 @@
 
 </head>
 <body>
-    <div class="header-wrapper">
+    <header class="header-wrapper">
         <div class="video-wrapper">
             <video preload="auto" loop="" autoplay="">
                 <source src="~/Videos/mountains.webm" type="video/webm" />
@@ -52,15 +52,15 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="~/Images/Main/Logo-White.png" class="img-responsive" /></a>
+                        <a class="navbar-brand" href="#"><img src="~/Images/Main/Logo-White.png" class="img-responsive" alt="Stev3n Logo" /></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Porftolio</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact me</a></li>
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Portfolio", "Index", "Portfolio")</li>
+                            <li>@Html.ActionLink("Projects", "Index", "Projects")</li>
+                            <li>@Html.ActionLink("Contact me", "Index", "Contact")</li>
                         </ul>
                     </div>
                 </div>
@@ -75,8 +75,36 @@
                 </ul>
             </div>
         </div>
+    </header>
+    <div class="content-wrapper container">
+        <div class="row">
+            <div class="col-md-4 content-col">
+                <img src="~/Images/Misc/studies.png" alt="Test" class="img-responsive" />
+                <h1>Studies</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in leo sodales, pulvinar erat finibus, auctor tortor. Curabitur nec maximus erat. Morbi non gravida nunc, ac dictum dui. Aenean auctor imperdiet elit eget hendrerit. Praesent pulvinar, justo quis cursus vestibulum, nunc metus venenatis nibh, et facilisis tortor nulla sit amet leo.
+                </p>
+            </div>
+            <div class="col-md-4 content-col">
+                <img src="~/Images/Misc/plans.png" alt="Test" class="img-responsive" />
+                <h1>Plans</h1>
+                <p>
+                    Mauris quis urna at nisi scelerisque tempor. Donec id dui in mauris vehicula posuere eu sit amet nisi. Vestibulum fringilla efficitur eros quis tincidunt. Pellentesque ut quam dui. Etiam ornare ligula ac gravida pellentesque. Nulla facilisi. Quisque vitae orci purus. Pellentesque eu venenatis nibh, vitae lacinia sapien. 
+                </p>
+            </div>
+            <div class="col-md-4 content-col">
+                <img src="~/Images/Misc/goals.png" alt="Test" class="img-responsive" />
+                <h1>Goals</h1>
+                <p>
+                    Vestibulum id gravida eros, condimentum scelerisque ex. Sed elementum lectus in ante varius mollis. Phasellus dignissim metus vestibulum, ultrices orci id, vestibulum justo. Fusce viverra pretium ipsum id varius. Nulla quis orci massa. Quisque ultrices eleifend nisi et ornare. Sed dui turpis, placerat sodales lobortis vel, hendrerit nec quam. Nullam nec quam ex.
+                </p>
+            </div>
+        </div>
     </div>
 
+    <div style="height: 900px;">
+        <p>a</p>
+    </div>
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")

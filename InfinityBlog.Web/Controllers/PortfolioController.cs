@@ -5,7 +5,7 @@
     using System.Web.Mvc;
     using InfinityBlog.Web.Models;
 
-    public class AboutController : BaseController
+    public class PortfolioController : BaseController
     {
         // GET: About
         public ActionResult Index()
