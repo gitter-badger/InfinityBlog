@@ -122,7 +122,7 @@ img {
   color: #eeeeee;
   border: 2px solid #3b97d3;
   padding: 17px;
-  background-color: none;
+  background-color: transparent;
   -webkit-transition: background-color 1s ease;
   -moz-transition: background-color 1s ease;
   -o-transition: background-color 1s ease;
