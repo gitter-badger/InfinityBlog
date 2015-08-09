@@ -132,7 +132,7 @@ img {
 }
 
 .state {
-    color: red;
+    color: green;
 }
 /* ## Querries ## */
 @media screen and (max-width: 380px) {
