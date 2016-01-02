@@ -3,8 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{424AA6C3-29E9-404D-8886-0E15DF8DF649}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0DC2FF8F-AF1F-4934-A5CF-006F904E995E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{F731D4BF-B405-4AFE-B75A-79BEDFCB1C6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{3ECAE1AA-E10C-415B-ADCF-47D90C04017F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4E6729BB-E843-4F17-976F-27AB2E10D027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Data", "Data\InfinityBlog.Data\InfinityBlog.Data.csproj", "{355499C6-D316-49C3-BE33-75C45C4B8AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Models", "Data\InfinityBlog.Models\InfinityBlog.Models.csproj", "{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Services.Data", "Services\InfinityBlog.Services.Data\InfinityBlog.Services.Data.csproj", "{329DDE76-C463-47BB-A415-76EDC2306870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Services.Logic", "Services\InfinityBlog.Services.Logic\InfinityBlog.Services.Logic.csproj", "{DF60F9C1-43D3-442D-B588-41DCC2021610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Servers.Web", "Servers\InfinityBlog.Servers.Web\InfinityBlog.Servers.Web.csproj", "{47318C5F-7F6C-4693-B791-62A810376F3A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9} = {424AA6C3-29E9-404D-8886-0E15DF8DF649}
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94} = {424AA6C3-29E9-404D-8886-0E15DF8DF649}
+		{329DDE76-C463-47BB-A415-76EDC2306870} = {0DC2FF8F-AF1F-4934-A5CF-006F904E995E}
+		{DF60F9C1-43D3-442D-B588-41DCC2021610} = {0DC2FF8F-AF1F-4934-A5CF-006F904E995E}
+		{47318C5F-7F6C-4693-B791-62A810376F3A} = {F731D4BF-B405-4AFE-B75A-79BEDFCB1C6A}
 	EndGlobalSection
 EndGlobal
