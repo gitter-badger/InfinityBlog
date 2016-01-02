@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{424AA6C3-29E9-404D-8886-0E15DF8DF649}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0DC2FF8F-AF1F-4934-A5CF-006F904E995E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{F731D4BF-B405-4AFE-B75A-79BEDFCB1C6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4E6729BB-E843-4F17-976F-27AB2E10D027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Services.Logic", "Services\InfinityBlog.Services.Logic\InfinityBlog.Services.Logic.csproj", "{DF60F9C1-43D3-442D-B588-41DCC2021610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Servers.Web", "Servers\InfinityBlog.Servers.Web\InfinityBlog.Servers.Web.csproj", "{47318C5F-7F6C-4693-B791-62A810376F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Data", "Data\InfinityBlog.Data\InfinityBlog.Data.csproj", "{355499C6-D316-49C3-BE33-75C45C4B8AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Models", "Data\InfinityBlog.Models\InfinityBlog.Models.csproj", "{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Services.Data", "Services\InfinityBlog.Services.Data\InfinityBlog.Services.Data.csproj", "{329DDE76-C463-47BB-A415-76EDC2306870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Servers.Api", "Servers\InfinityBlog.Servers.Api\InfinityBlog.Servers.Api.csproj", "{36B17997-8E5E-4EDC-A6A2-9DFEAED2162C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Tests.Servers.Web", "Tests\InfinityBlog.Tests.Servers.Web\InfinityBlog.Tests.Servers.Web.csproj", "{5DEBACA7-4E8C-40F8-BE7E-9336D9CDA3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Tests.Servers.Api", "Tests\InfinityBlog.Tests.Servers.Api\InfinityBlog.Tests.Servers.Api.csproj", "{46B63927-6F8F-417D-94B9-E1E2E15184EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityBlog.Tests.Services", "Tests\InfinityBlog.Tests.Services\InfinityBlog.Tests.Services.csproj", "{981F3D59-C895-4673-B20B-60DF43F11773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF60F9C1-43D3-442D-B588-41DCC2021610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47318C5F-7F6C-4693-B791-62A810376F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329DDE76-C463-47BB-A415-76EDC2306870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B17997-8E5E-4EDC-A6A2-9DFEAED2162C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B17997-8E5E-4EDC-A6A2-9DFEAED2162C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B17997-8E5E-4EDC-A6A2-9DFEAED2162C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B17997-8E5E-4EDC-A6A2-9DFEAED2162C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEBACA7-4E8C-40F8-BE7E-9336D9CDA3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEBACA7-4E8C-40F8-BE7E-9336D9CDA3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEBACA7-4E8C-40F8-BE7E-9336D9CDA3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEBACA7-4E8C-40F8-BE7E-9336D9CDA3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B63927-6F8F-417D-94B9-E1E2E15184EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B63927-6F8F-417D-94B9-E1E2E15184EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B63927-6F8F-417D-94B9-E1E2E15184EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B63927-6F8F-417D-94B9-E1E2E15184EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981F3D59-C895-4673-B20B-60DF43F11773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981F3D59-C895-4673-B20B-60DF43F11773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981F3D59-C895-4673-B20B-60DF43F11773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981F3D59-C895-4673-B20B-60DF43F11773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF60F9C1-43D3-442D-B588-41DCC2021610} = {0DC2FF8F-AF1F-4934-A5CF-006F904E995E}
+		{47318C5F-7F6C-4693-B791-62A810376F3A} = {F731D4BF-B405-4AFE-B75A-79BEDFCB1C6A}
+		{355499C6-D316-49C3-BE33-75C45C4B8AB9} = {424AA6C3-29E9-404D-8886-0E15DF8DF649}
+		{8D4208E8-2298-45BB-96E4-4B2DE7C23F94} = {424AA6C3-29E9-404D-8886-0E15DF8DF649}
+		{329DDE76-C463-47BB-A415-76EDC2306870} = {0DC2FF8F-AF1F-4934-A5CF-006F904E995E}
+		{36B17997-8E5E-4EDC-A6A2-9DFEAED2162C} = {F731D4BF-B405-4AFE-B75A-79BEDFCB1C6A}
+		{5DEBACA7-4E8C-40F8-BE7E-9336D9CDA3F8} = {4E6729BB-E843-4F17-976F-27AB2E10D027}
+		{46B63927-6F8F-417D-94B9-E1E2E15184EC} = {4E6729BB-E843-4F17-976F-27AB2E10D027}
+		{981F3D59-C895-4673-B20B-60DF43F11773} = {4E6729BB-E843-4F17-976F-27AB2E10D027}
+	EndGlobalSection
+EndGlobal
